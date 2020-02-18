@@ -26,6 +26,7 @@ module.exports = {
         //usePreconnect: false,
       },
     },
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
