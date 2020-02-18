@@ -1,0 +1,52 @@
+@import "../styles/variables";
+.second{
+  display: flex;
+  flex-direction: row;
+  font-family: $OpenSans;
+  padding-bottom: 108px;
+  border-bottom: 2px solid #ececec;
+  &__heading{
+    opacity: 0.8;
+    color: $heading-color;
+    font-family: $OpenSans;
+    font-size: $fz42;
+    font-weight: 700;
+    line-height: 55px;
+    text-transform: uppercase;
+  }
+  &__content{
+   display: flex;
+    justify-content: space-between;
+    margin-top: 114px;
+  }
+  &__left{
+    width: 50%;
+    height: 100%;
+  }
+  &__right{
+    width: 50%;
+    height: 100%;
+  }
+  &__text{
+    max-width: 510px;
+    margin-top: 50px;
+    color: $text-color;
+    font-size: $fz16;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  &__button{
+    width: 227px;
+    margin-top: 58px;
+  }
+  &__ticket-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  &__ticket-item{
+    &:nth-child(n+3){
+      margin-top: 49px;
+    }
+  }
+}

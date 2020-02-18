@@ -1,0 +1,16 @@
+@import "../styles/variables";
+.footer{
+  height: 111px;
+  background-color: #313030;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  &__copyright{
+    margin-top: 20px;
+    color: #b8b8b8;
+    font-family: $OpenSans;
+    font-size: $fz16;
+    font-weight: 400;
+    line-height: 26px;
+  }
+}

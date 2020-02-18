@@ -1,0 +1,42 @@
+@import "../styles/variables";
+.third{
+  font-family: $OpenSans;
+  padding-bottom: 108px;
+  padding-top: 108px;
+  border-bottom: 2px solid #ececec;
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__heading{
+    opacity: 0.8;
+    text-align: center;
+    color: $text-color;
+    font-size: $fz42;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__subheading{
+    opacity: 0.7;
+    color: $text-color;
+    font-size: $fz16;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 500px;
+    margin-top: 34px;
+    text-align: center;
+  }
+  &__line-decor{
+    width: 132px;
+    height: 3px;
+    background-color: $second-color;
+    margin-top: 29px;
+  }
+  &__form{
+    max-width: 730px;
+    margin-top: 75px;
+  }
+
+
+}

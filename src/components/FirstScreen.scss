@@ -1,0 +1,55 @@
+@import "../styles/variables";
+.first{
+  padding-top: 29px;
+  display: flex;
+  background-color: #f6f2f2;
+  min-height: 688px;
+  flex-direction: column;
+  &__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 108px;
+  }
+  &__left{
+    width: 588px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: $OpenSans;
+  }
+  &__right{
+    width: calc(100% - 588px);
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+  }
+  &__heading{
+    color: $heading-color;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: $fz60;
+    line-height: 72px;
+    text-transform: uppercase;
+  }
+  &__text{
+    opacity: 0.7;
+    max-width: 512px;
+    color: $text-color;
+    font-family: inherit;
+    font-size: $fz16;
+    font-weight: 400;
+    margin-top: 36px;
+    line-height: 28px;
+  }
+  &__button{
+    width: 227px;
+    margin-top: 58px;
+  }
+  &__video-box{
+    width: 551px;
+    height: 356px;
+    background-color: #c4c0b1;
+    box-shadow: 0px 0px 100px -25px rgba(0,0,0,0.2);;
+  }
+}

@@ -1,0 +1,15 @@
+@import "../styles/variables";
+.input{
+  border: none;
+  outline: none;
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  padding: 0 48px;
+
+  opacity: 0.7;
+  color: $text-color;
+  font-family: $OpenSans;
+  font-size: $fz16;
+  font-weight: 400;
+  line-height: 28px;
+}
